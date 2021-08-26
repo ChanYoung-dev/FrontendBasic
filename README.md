@@ -4,7 +4,7 @@
 
 # Contents
 
-### [1. Basic](https://github.com/ChanYoung-dev/pythonBasic/blob/master/HelloWorld/1.%20Basic/README.md "basic")
+### [1. Basic](https://github.com/ChanYoung-dev/FrontendBasic/blob/master/1.%20Basic/README.md "basic")
 
 
 
