@@ -62,7 +62,7 @@ brew install rbenv ruby-build
 
    자신의 shell이 무엇인지 확인하려면 터미널 상단에 써있다.
 
-   ![image-20210826184448064](/Users/gimchan-yeong/Library/Application Support/typora-user-images/image-20210826184448064.png)
+   ![zsh](./img/zsh.png)
 
    위처럼 zsh로 적혀있으면 
 
@@ -108,7 +108,7 @@ rbenv versions
 
 위 명령어를 입력했을 경우
 
-![image-20210826185340171](/Users/gimchan-yeong/Library/Application Support/typora-user-images/image-20210826185340171.png)
+![rbenv](./img/rbenv.png)
 
 위와 같이 *가 system옆이아니라 2.6.6옆에 있어야한다.
 
@@ -116,7 +116,7 @@ rbenv versions
 ruby -v
 ```
 
-![image-20210826185523157](/Users/gimchan-yeong/Library/Application Support/typora-user-images/image-20210826185523157.png)
+![ruby](./img/ruby.png)
 
 ruby까지 버전확인완료
 
@@ -154,9 +154,7 @@ bundle exec jekyll serve
 
 정상적으로 작동이되면
 
-![image-20210826191010342](/Users/gimchan-yeong/Library/Application Support/typora-user-images/image-20210826191010342.png)
-
-이렇게 뜬다.
+![success](./img/success.png)이렇게 뜬다.
 
 127.0.0.1:4000으로 접속하여 로컬에선 사이트가 정상적으로 뜨는지 확인해본다.
 
