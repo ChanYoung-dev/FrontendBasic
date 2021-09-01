@@ -1,0 +1,92 @@
+:root{
+    --text-color: gray;
+    --background-color: pink;
+    --accent-color: yellow;
+}
+
+body {
+    margin : 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(44, 29, 10);
+    padding: 8px 12px;
+}
+.navbar_logo{
+    font-size: 24px;
+    color: white;
+}
+
+.navbar_logo i {
+    color: red;
+}
+.navbar_menu ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.navbar_menu ul li{
+    padding: 8px 12px;
+}
+
+.navbar_links ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+.navbar_links ul li{
+    padding: 8px 12px;
+
+}
+
+.navbar_menu ul li:hover{
+    background-color: seagreen;
+    border-radius: 4px;
+}
+.navbar_toogleBtn{
+    display:none;
+    position: absolute;
+    right: 32px;
+    color:tan;
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar_menu{
+        display: none;
+        width: 100%;
+    }
+    .navbar_menu ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar_menu ul li{
+        width: 100%;
+        text-align: center;
+        /* 왜 위 코드를 작성하지않으면 왼쪽으로 치우쳐질까? text는 width가 100%면 그렇게 인식한다.*/
+    }
+    .navbar_logo{
+        align-self: flex-start;
+    }
+    .navbar_toogleBtn{
+        display: block;
+    }
+    .navbar_links{
+        display: none;
+    }
+    .navbar_menu.active,
+    .navbar_links.active{
+        display: flex;
+    }
+}
